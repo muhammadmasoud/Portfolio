@@ -1,0 +1,129 @@
+.skills-section {
+  padding: 60px 0;
+  background-color: #333;
+  color: #fff;
+}
+
+.skills-container {
+  max-width: 1140px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.skills-title {
+  color: #fff;
+  font-size: 3.5rem;
+  font-family: 'Times New Roman', Times, serif;
+  margin-bottom: 30px;
+  text-align: center;
+  font-weight: 400;
+}
+
+.skills-intro-wrapper {
+  max-width: 800px;
+  margin: 0 auto 40px;
+  text-align: center;
+}
+
+.skills-intro-text {
+  font-size: 0.9rem;
+  line-height: 1.8;
+  color: #ccc;
+  margin-bottom: 0;
+}
+
+.skills-content-wrapper {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 40px;
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.skills-focus-area {
+  width: 25%;
+  padding-right: 20px;
+}
+
+.skills-focus-title {
+  font-size: 1rem;
+  font-weight: 500;
+  color: #fff;
+  margin-bottom: 15px;
+  letter-spacing: 1px;
+}
+
+.skills-focus-divider {
+  width: 100%;
+  border: none;
+  height: 1px;
+  background-color: #555;
+  margin: 10px 0 20px;
+  opacity: 1;
+}
+
+.skills-focus-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.skills-focus-item {
+  font-size: 1rem;
+  color: #ccc;
+  margin-bottom: 15px;
+  line-height: 1.5;
+}
+
+.skills-bars-wrapper {
+  width: 70%;
+}
+
+.skill-bar-container {
+  display: flex;
+  width: 100%;
+  height: 30px;
+  background-color: #fff;
+  margin-bottom: 5px;
+  overflow: hidden;
+}
+
+.skill-name {
+  width: 110px;
+  height: 100%;
+  background-color: #797472;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.9rem;
+  font-weight: 400;
+  text-align: center;
+  flex-shrink: 0;
+}
+
+.skill-level {
+  height: 100%;
+  background-color: #c4c4c4;
+}
+
+@media (max-width: 768px) {
+  .skills-content-wrapper {
+    flex-direction: column;
+  }
+
+  .skills-focus-area, .skills-bars-wrapper {
+    width: 100%;
+    padding-right: 0;
+  }
+
+  .skills-focus-area {
+    margin-bottom: 40px;
+    text-align: center;
+  }
+
+  .skills-focus-divider {
+    margin: 10px auto 20px;
+  }
+}

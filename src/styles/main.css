@@ -1,0 +1,86 @@
+/* Global styles */
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  color: #333;
+  line-height: 1.6;
+  background-color: #fff;
+}
+
+section {
+  padding: 60px 0;
+}
+
+/* General button styles */
+.button {
+  padding: 8px 20px;
+  border-radius: 0;
+  font-weight: 400;
+  text-transform: uppercase;
+  font-size: 0.8rem;
+  letter-spacing: 1px;
+  transition: all 0.3s ease;
+  display: inline-block;
+}
+
+.button-dark {
+  background-color: #333;
+  border-color: #333;
+  color: #fff;
+}
+
+.button-dark:hover {
+  background-color: #222;
+  border-color: #222;
+}
+
+.button-outline {
+  color: #333;
+  border: 1px solid #333;
+}
+
+.button-outline:hover {
+  background-color: #333;
+  color: #fff;
+  text-decoration: none;
+}
+
+/* Add padding to account for fixed navbar */
+main {
+  padding-top: 0;
+}
+
+/* Text colors */
+.text-muted {
+  color: #888 !important;
+}
+
+/* Responsive container */
+.responsive-container {
+  max-width: 1140px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+/* Responsive grid */
+.responsive-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  margin-top: 40px;
+}
+
+@media (max-width: 992px) {
+  .responsive-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 576px) {
+  .responsive-grid {
+    grid-template-columns: 1fr;
+  }
+}

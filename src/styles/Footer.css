@@ -1,0 +1,144 @@
+.footer {
+  padding: 40px 0;
+  background-color: #141414;
+  color: #fff;
+}
+
+.footer-container {
+  max-width: 1140px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.footer-row {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 -15px;
+}
+
+.footer-contact-section, .footer-button-section, .footer-social-section {
+  padding: 0 15px;
+  width: 100%;
+  flex: 0 0 33.333333%;
+  max-width: 33.333333%;
+}
+
+.footer-button-section {
+  text-align: center;
+}
+
+.footer-social-section {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.footer-title {
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-bottom: 20px;
+  letter-spacing: 1px;
+}
+
+.contact-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.contact-icon {
+  font-size: 1.2rem;
+  margin-right: 10px;
+  color: #fff;
+}
+
+.contact-item p {
+  margin: 0;
+  font-size: 0.9rem;
+}
+
+.contact-button {
+  display: inline-block;
+  padding: 10px 30px;
+  border: 1px solid #fff;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 0.9rem;
+  letter-spacing: 1px;
+  transition: all 0.3s ease;
+  margin-top: 20px;
+  text-decoration: none;
+}
+
+.contact-button:hover {
+  background-color: #fff;
+  color: #1a1a1a;
+}
+
+.social-links {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 15px;
+  flex-wrap: wrap;
+}
+
+.social-link {
+  color: #fff;
+  font-size: 1.4rem;
+  margin-left: 15px;
+  margin-bottom: 10px;
+  transition: all 0.3s ease;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.social-link:hover {
+  color: #fff;
+  background-color: rgba(255, 255, 255, 0.2);
+  transform: translateY(-3px);
+}
+
+.copyright {
+  margin: 0;
+  font-size: 0.8rem;
+  text-align: right;
+}
+
+@media (max-width: 768px) {
+  .footer-contact-section, .footer-button-section, .footer-social-section {
+    flex: 0 0 100%;
+    max-width: 100%;
+    text-align: center;
+  }
+
+  .footer-title, .contact-info, .social-links, .copyright {
+    text-align: center;
+  }
+
+  .contact-item {
+    justify-content: center;
+  }
+
+  .social-links {
+    justify-content: center;
+    margin-top: 20px;
+  }
+
+  .social-link {
+    margin: 0 10px;
+  }
+
+  .contact-button {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  .footer-social-section {
+    align-items: center;
+  }
+}
